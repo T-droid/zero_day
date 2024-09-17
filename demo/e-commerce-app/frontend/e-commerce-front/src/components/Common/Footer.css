@@ -1,0 +1,10 @@
+.footer {
+    background-color: rgb(73, 73, 87);
+    color: rgb(223, 221, 221);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer h2 {
+    font-weight: bold;
+}

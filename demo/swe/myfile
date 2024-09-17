@@ -1,0 +1,14 @@
+EGERTON UNIVERSITY
+COMPUTER SCIENCE DEPARTMENT
+
+CONTINUOUS ASSESSMENT TEST (Take Away)
+COMP 101: INTRODUCTION TO COMPUTER APPLICATIONS
+Instructions: Answer ALL questions
+Date: 26/03/2024                                                                                                    Time: 1 Hour
+
+
+1. Software development does not stop when a system is delivered but continues throughout the lifetime of the system. After a system has been deployed, it inevitably has to change if it is to remain useful. Business changes and changes to user expectations generate new requirements for the existing software. Parts of the software may have to be modified to correct errors that are found in operation, to adapt it for changes to its hardware and software platform, and to improve its performance or other non-functional characteristics. 
+Discuss the software evolution and maintenance processes. 				(8 Marks)
+2. Documentation for software development is the written material created by a developer to track a software's production and use from start to finish. Developers write some forms of software documentation for their own reference, while others help user experience professionals, quality assurance specialists and software users understand and navigate the product.
+    a. Discuss the two categories of documentation in software development. 
+    b. Explain the documents in each category. 					(7 Marks)

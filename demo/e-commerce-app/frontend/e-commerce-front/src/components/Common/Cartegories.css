@@ -1,0 +1,31 @@
+.categories {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid #ccc;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+  
+.categories::-webkit-scrollbar {
+    display: none;
+}
+
+
+.categories button {
+    flex: none;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; 
+}
+  
+.categories button:hover {
+    background-color: #2980b9;
+}
+  
