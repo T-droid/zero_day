@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/Common/Footer";
 import Header from "../components/Common/Header";
 import Cartegories from "../components/Common/Cartegories";
 import About from "../components/Common/About";
 import ProductCard from "../components/Common/ProductCard";
 import "./HomePage.css";
+import { useDispatch } from "react-redux";
+import { fetchProducts } from "../Redux/slices/productSlice";
+
 
 function Home() {
+    const dispatch = useDispatch();
 
+    useEffect(() => {
+        dispatch(fetchProducts());
+    }, [dispatch]);
+    
     const products = [
         { id: 1, name: 'Product 1', price: 29.99, image: '/images/product1.jpg' },
         { id: 2, name: 'Product 2', price: 49.99, image: '/images/product2.jpg' },
